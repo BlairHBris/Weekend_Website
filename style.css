@@ -57,3 +57,28 @@ li > a:hover{
     color: purple;
     border: 2px solid purple;
 }
+
+.mainpageweekend {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 2;
+    margin-top: 2em;
+    max-width: 50%;
+}
+
+.efrainselfie {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 8em;
+}
+
+.efrainparagraph{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+   
+    flex-wrap: wrap;
+    width:  8em;
+    margin-top: 2em;
+    
+}
